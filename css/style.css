@@ -39,17 +39,13 @@ html{
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: top;
   padding: 20px;
-
 }
 .block-1{
   display: block;
   position: relative;
   justify-content: flex-start;
-  
   width: 300px;
-
   padding: 0px;
   margin-bottom: 15px;
   background: #E8E8E8;
@@ -218,7 +214,7 @@ html{
   height: 200px;
   width: 360px;
   padding: 8px;
-  background-color: blue; 
+  background-color: #79ACC9; 
   margin-bottom: 10px;
   color: #FFFFFF;
   font-weight: bold;
@@ -230,7 +226,7 @@ html{
   height: 200px;
   width: 360px;
   padding: 8px;
-  background-color: blue; 
+  background-color: #79ACC9; 
   margin-bottom: 10px;
   color: #FFFFFF;
   font-weight: bold;
@@ -243,7 +239,7 @@ html{
   height: 200px;
   width: 360px;
   padding: 8px;
-  background-color: blue; 
+  background-color: #79ACC9; 
   margin-bottom: 10px;
   color: #FFFFFF;
   font-weight: bold;
@@ -255,7 +251,7 @@ html{
   height: 200px;
   width: 360px;
   padding: 8px;
-  background-color: blue; 
+  background-color: #79ACC9; 
   margin-top: 50px;
   color: #FFFFFF;
   font-weight: bold;
@@ -267,7 +263,7 @@ html{
   height: 200px;
   width: 360px;
   padding: 8px;
-  background-color: blue; 
+  background-color: #79ACC9; 
   margin-top: 50px;
   color: #FFFFFF;
   font-weight: bold;
@@ -279,33 +275,33 @@ html{
   max-width: 70px;
   width: 70px;
   height: 70px;
-  align-items: top;
+  
 }
 .content_block1__second__img-2{
   max-width: 70px;
   width: 70px;
   height: 70px;
-  align-items: top;
+  
 }
 .content_block1__third__img-3{
   max-width: 70px;
   width: 70px;
   height: 70px;
-  align-items: top;
+  
 }
 
 .content_block2__fourth__img-4{
   max-width: 70px;
   width: 70px;
   height: 70px;
-  align-items: top;
+  
 
 }
 .content_block2__fifth__img-5{
   max-width: 70px;
   width: 70px;
   height: 70px;
-  align-items: top;
+  
 
 }
 .content_block1__first__text{
@@ -337,4 +333,53 @@ html{
   bottom: 0;
   padding: 16px;
   align-items: center;
+}
+
+.table{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.table-1{
+  width: auto;
+  height: auto;
+  background-color: yellow;
+  align-content: center;
+  font-weight: bold;
+  color: #630A0A;
+}
+.table-1__tr{
+  padding: 15px;
+  text-align: right;
+
+}
+.table-1__td{
+ border: 4px solid yellow;
+ text-align: left; 
+
+  
+}
+.table-tel{
+  width: auto;
+  height: auto;
+  background-color: #FFFFFF;
+  align-content: center;
+  font-weight: bold;
+  color: green;
+}
+.table-tel__tr{
+  padding: 15px;
+  text-align: right;
+}
+.table-tel__td{
+
+}
+a[href^="tel:"] {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
 }
